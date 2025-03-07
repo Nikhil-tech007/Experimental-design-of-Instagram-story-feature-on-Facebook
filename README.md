@@ -32,6 +32,7 @@ Monthly Active Users (DAU/MAU)
 
 ## Guardrail metrics
 The guardrail metrics considered for the experiment are:
+
 1) the number of posts per user per day on Facebook
 2) the latency rate of the homepage on Facebook
 3) Instagram Daily Active Users
@@ -52,6 +53,7 @@ samples in the data), with a 50% split between the control and treatment groups.
 
 ## Results
 T-test
+
 The t-test results show that there was a significant difference of 1.16% between the
 control and treatment group’s user engagement (p<0.001, CI = [1.15%, 1.16%]). It
 indicates that introducing story features on Facebook can increase user engagement by
@@ -59,6 +61,7 @@ indicates that introducing story features on Facebook can increase user engageme
 
 ## Robustness Check
 Segmentation Test
+
 We conducted t-tests in different user segments to check the robustness of the result.
 We chose three different segments: age, gender, and device. All the results show that
 there was a significant difference between the control and treatment group’s user
